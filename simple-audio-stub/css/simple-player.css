@@ -1,0 +1,48 @@
+body {
+  background-color: blanchedalmond;
+  margin: 10px;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  user-select: none;
+  padding-bottom: 2px;
+}
+#container {
+  width: 330px;
+  height: 50px;
+  background-color: darksalmon;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#play-pause-btn {
+  padding: 0px 25px 0px 25px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#current-time {
+  width: 40px;
+  padding-left: 5px;
+}
+
+#time-divider {
+  padding-left: 5px;
+}
+
+#total-time {
+  width: 40px;
+  padding-left: 5px;
+}
+
+#seek-bar {
+  width: 150px;
+  cursor: pointer;
+  margin: 0px 25px 0px 25px;
+}
